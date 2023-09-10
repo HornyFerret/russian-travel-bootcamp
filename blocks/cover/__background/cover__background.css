@@ -1,0 +1,10 @@
+.cover__background {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    opacity: 80%;
+    z-index: 1;
+}
+
+.cover__background:hover {
+    opacity: 30%;
+}
