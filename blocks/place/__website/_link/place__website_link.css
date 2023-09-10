@@ -1,8 +1,16 @@
 .place__website_link {
-    font-family: Inter;
+    font-family: Inter Light;
+    color: #fff;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.place__website_link:hover {
+    opacity: 80%;
+    text-decoration: none;
 }

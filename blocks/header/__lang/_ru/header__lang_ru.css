@@ -6,5 +6,6 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: right;
-
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
