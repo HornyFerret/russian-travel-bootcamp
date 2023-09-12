@@ -19,3 +19,9 @@
     
 }
 
+@media screen and (max-width: 960px) {
+    .cover__title{
+        margin: 115px 0 0;
+    }
+}
+

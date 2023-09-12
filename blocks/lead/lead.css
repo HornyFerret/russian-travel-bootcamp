@@ -12,3 +12,10 @@
     }
     
 }
+
+@media screen and (max-width: 960px) {
+    .lead{
+        margin: 48px 0 0;    
+        display: flex;
+    }
+}

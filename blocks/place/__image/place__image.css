@@ -9,3 +9,9 @@
     }
     
 }
+
+@media screen and (max-width: 960px) {
+    .place__image {
+        width: 21.25rem;
+    }
+}
