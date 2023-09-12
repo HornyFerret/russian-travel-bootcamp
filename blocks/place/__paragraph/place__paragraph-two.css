@@ -9,3 +9,10 @@
     grid-column: 2/3;
     grid-row: 3/4;
 }
+
+@media screen and (max-width: 1210px) {
+    .place__paragraph-two {
+        width: 28.5rem;
+    }
+    
+}

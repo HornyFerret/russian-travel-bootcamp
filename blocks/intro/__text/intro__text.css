@@ -6,4 +6,12 @@
     letter-spacing: 0em;
     text-align: left;
     margin: 40px 0 33px; 
+    width: 45rem;
+}
+
+@media screen and (max-width: 1210px) {
+    .intro__text{
+        width: 43.125rem;
+    }
+    
 }

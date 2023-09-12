@@ -5,3 +5,10 @@
     align-items: center;
     width: fit-content;
 }
+
+@media screen and (max-width: 1210px) {
+    .lead{
+        margin: 48px 48px 0;    
+    }
+    
+}

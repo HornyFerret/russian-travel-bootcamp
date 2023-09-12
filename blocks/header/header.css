@@ -3,3 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1210px) {
+    .header {
+        max-width: 58rem;
+    }
+}

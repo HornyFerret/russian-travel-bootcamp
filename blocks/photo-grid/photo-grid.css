@@ -5,3 +5,14 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
 }
+
+@media screen and (max-width: 1210px) {
+    .photo-grid{
+        display: grid;
+        grid-template-columns: repeat(3, min-content);
+        grid-template-rows: repeat(4, 1fr);
+        max-width: 58rem;
+        gap: 14px;
+    }
+    
+}
