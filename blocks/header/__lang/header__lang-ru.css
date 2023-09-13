@@ -1,4 +1,4 @@
-.header__lang_ru{
+.header__lang-ru{
     color: #fff;
     font-family: Inter;
     font-size: 24px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .header__lang_ru {
+    .header__lang-ru {
         font-size: 18px;
         line-height: 20px;
     }

@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website-link {
     font-family: Inter Light;
     color: #fff;
     font-size: 18px;
@@ -10,7 +10,7 @@
     text-underline-offset: 3px;
 }
 
-.place__website_link:hover {
+.place__website-link:hover {
     opacity: 80%;
     text-decoration: none;
 }

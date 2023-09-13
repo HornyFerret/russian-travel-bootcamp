@@ -1,4 +1,4 @@
-.lead__figure_caption{
+.lead__figure-caption{
     font-family: 'Inter Thin';
     font-size: 10px;
     font-weight: 400;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 960px) {
-    .lead__figure_caption {
+    .lead__figure-caption {
         margin: 8px 0 0 24px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .lead__figure_caption {
+    .lead__figure-caption {
         margin: 8px 0 0 16px;
     }
 }
