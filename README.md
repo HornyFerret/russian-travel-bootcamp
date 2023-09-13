@@ -16,3 +16,4 @@
 
 Используются HTML и CSS, а так же их внутренности :D
 
+https://hornyferret.github.io/russian-travel-bootcamp/
