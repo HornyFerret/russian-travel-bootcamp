@@ -9,3 +9,10 @@
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
+@media screen and (max-width: 700px) {
+    .header__lang_ru {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
