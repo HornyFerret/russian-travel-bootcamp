@@ -9,7 +9,21 @@
 @media screen and (max-width: 1210px) {
     .page{
         margin: 0;
-        width: 64rem;
+        max-width: 64rem;
     }
     
+}
+
+@media screen and (max-width: 960px) {
+    .page {
+        margin:  0;
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .page {
+        max-width: 20rem;
+        margin: 0;
+    }
 }
