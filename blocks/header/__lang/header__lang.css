@@ -3,3 +3,9 @@
     align-items: flex-end;
     margin-bottom: 4px;
 }
+
+@media screen and (max-width: 700px) {
+    .header__lang {
+        margin-bottom: 6px;
+    }
+}

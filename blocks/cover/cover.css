@@ -16,3 +16,10 @@
         width: 48rem;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .cover {
+        width: 20rem;
+        margin: 66px 0 0;    
+    }
+}

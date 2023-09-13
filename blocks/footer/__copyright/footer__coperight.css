@@ -9,3 +9,12 @@
     position: absolute;
     right: 0;
 }
+
+@media screen and (max-width: 700px) {
+    .footer__copyright {
+        line-height: 14px;
+        text-align: left;
+        position: relative;
+        margin: 16px 0 0;
+    }
+}

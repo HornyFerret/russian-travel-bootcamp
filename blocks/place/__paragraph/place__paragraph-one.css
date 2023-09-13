@@ -32,3 +32,14 @@
         margin-bottom: 25px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .place__paragraph-one {
+        width: 18rem;
+        margin: 32px 16px 0;
+    }
+
+    .place__paragraph-one:last-child{
+        margin: 32px 16px 0;
+    }
+}

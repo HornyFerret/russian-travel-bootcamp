@@ -15,3 +15,9 @@
     }
     
 }
+
+@media screen and (max-width: 700px) {
+    .intro__text {
+        width: 18rem;
+    }
+}

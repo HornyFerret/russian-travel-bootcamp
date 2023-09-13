@@ -15,3 +15,9 @@
         width: 22rem;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .photo-grid__pic {
+        width: 18rem;
+    }
+}
