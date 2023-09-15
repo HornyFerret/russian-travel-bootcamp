@@ -12,23 +12,22 @@
 
 @media screen and (max-width: 1210px) {
     .place__paragraph-two {
-        width: 28.5rem;
+        max-width: 28.5rem;
     }
     
 }
 
 @media screen and (max-width: 960px) {
     .place__paragraph-two {
-        width: 22rem;
+        max-width: 22rem;
         font-size: 16px;
-        font-weight: 400;
         line-height: 26px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .place__paragraph-two {
-        width: 18rem;
+        max-width: 18rem;
         margin: 25px 16px 0;
     }
 }

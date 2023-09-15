@@ -1,8 +1,6 @@
 .cover__overlay{
     text-decoration: none;
     color: #fff;
-    grid-row: 1/4;
-    grid-column: 1/2;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, min-content);

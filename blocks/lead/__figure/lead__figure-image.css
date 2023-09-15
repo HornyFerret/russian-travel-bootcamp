@@ -4,14 +4,13 @@
 
 @media screen and (max-width: 1210px) {
     .lead__figure-image {
-        width: 58rem;
+        max-width: 58rem;
         height: auto;
-        display: block;
     }
 }
 @media screen and (max-width: 960px) {
     .lead__figure-image {
-        width: 48rem;
+        max-width: 48rem;
     }
 }
 

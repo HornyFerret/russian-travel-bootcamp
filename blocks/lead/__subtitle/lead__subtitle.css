@@ -5,13 +5,13 @@
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
-    width: 40rem;
+    max-width: 40rem;
     margin: 32px 0 64px;
 }
 
 @media screen and (max-width: 1210px) {
     .lead__subtitle{
-        margin: 32px 0 56px;
+        margin-top: 56px;
     }
     
 }
@@ -20,7 +20,7 @@
     .lead__subtitle {
         font-size: 16px;
         line-height: 20px;
-        width: 18rem;
+        max-width: 18rem;
         margin: 16px 0 40px;
     }
 }

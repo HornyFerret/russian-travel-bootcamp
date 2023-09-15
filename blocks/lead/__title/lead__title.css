@@ -5,7 +5,7 @@
     line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
-    width: 45rem;
+    max-width: 45rem;
     margin: 0 auto;
 }
 
@@ -13,6 +13,6 @@
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        width: 18rem;
+        max-width: 18rem;
     }
 }

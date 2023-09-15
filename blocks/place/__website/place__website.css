@@ -1,4 +1,6 @@
 .place__website{
+    display: flex;
+    flex-direction: column;
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: flex-end;
@@ -7,7 +9,7 @@
 
 @media screen and (max-width: 960px) {
     .place__website {
-        width: 22rem;
+        max-width: 22rem;
         margin-bottom: 48px;
         height: 46px;
     }
@@ -15,10 +17,8 @@
 
 @media screen and (max-width: 700px) {
     .place__website {
-        display: flex;
-        flex-direction: column;
         align-self: flex-start;
         margin: 32px 16px 0;
-        width: 18rem;
+        max-width: 18rem;
     }
 }

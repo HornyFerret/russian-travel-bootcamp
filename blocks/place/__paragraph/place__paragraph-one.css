@@ -11,23 +11,21 @@
 }
 
 .place__paragraph-one:last-child{
-    grid-column: 2/3;
     grid-row: 2/4;
     margin: 0;
 }
 
 @media screen and (max-width: 1210px) {
     .place__paragraph-one{
-        width: 28.5rem;
+        max-width: 28.5rem;
     }
     
 }
 
 @media screen and (max-width: 960px) {
     .place__paragraph-one {
-        width: 22rem;
+        max-width: 22rem;
         font-size: 16px;
-        font-weight: 400;
         line-height: 26px;
         margin-bottom: 25px;
     }
@@ -35,11 +33,7 @@
 
 @media screen and (max-width: 700px) {
     .place__paragraph-one {
-        width: 18rem;
-        margin: 32px 16px 0;
-    }
-
-    .place__paragraph-one:last-child{
+        max-width: 18rem;
         margin: 32px 16px 0;
     }
 }

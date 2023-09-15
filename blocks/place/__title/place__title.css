@@ -5,7 +5,7 @@
     line-height: 76px;
     letter-spacing: 0em;
     text-align: left;
-    width: 25.5rem;
+    max-width: 25.5rem;
     margin:0 0 48px;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -15,7 +15,7 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        width: 21.25rem;
+        max-width: 21.25rem;
         height: 46px;
     }
 }
@@ -26,6 +26,6 @@
         font-size: 32px;
         line-height: 35px;
         height: 35px;
-        width: 18rem;
+        max-width: 18rem;
     }
 }
