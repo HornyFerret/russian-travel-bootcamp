@@ -3,20 +3,20 @@
     grid-row: 2/5;
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1279px) {
     .place__image{
         max-width: 27.5rem;
     }
     
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1023px) {
     .place__image {
         max-width: 21.25rem;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     .place__image {
         margin: 32px 0 0;
         max-width: 20rem;

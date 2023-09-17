@@ -7,7 +7,7 @@
     opacity: 80%;
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1279px) {
     .cover{
         margin-right: 0;
         margin-left: 0;
@@ -16,14 +16,14 @@
     
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1023px) {
     .cover{
         margin-top: 90px;
         min-width: 48rem;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     .cover {
         min-width: 20rem;
         margin-top: 66px;
