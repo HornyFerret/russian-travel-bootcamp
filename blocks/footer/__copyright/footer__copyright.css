@@ -1,20 +1,18 @@
 .footer__copyright {
-    font-family: 'Inter ExtraLight';
+    font-family: 'Inter ExtraLight', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
     text-align: right;
     margin: 0;
-    position: absolute;
-    right: 0;
 }
 
 @media screen and (max-width: 700px) {
     .footer__copyright {
         line-height: 14px;
         text-align: left;
-        position: relative;
-        margin-top: 16px;
+        display: flex;
+        align-items: flex-end;
     }
 }

@@ -1,33 +1,44 @@
-.place__paragraph-two{
-    font-family: 'Inter Light';
+.place__paragraph{
+    font-family: 'Inter Light', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 0;
+    margin: 0 0 26px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.place__paragraph:last-child{
     grid-column: 2/3;
     grid-row: 3/4;
+    margin: 0;
 }
 
 @media screen and (max-width: 1210px) {
-    .place__paragraph-two {
+    .place__paragraph {
         max-width: 28.5rem;
     }
     
 }
 
 @media screen and (max-width: 960px) {
-    .place__paragraph-two {
+    .place__paragraph {
         max-width: 22rem;
         font-size: 16px;
         line-height: 26px;
+        margin: 0 0 25px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .place__paragraph-two {
+    .place__paragraph {
         max-width: 18rem;
-        margin: 25px 16px 0;
+        margin: 32px 16px 25px;
+    }
+
+    .place__paragraph:last-child {
+        margin: 0 16px 0;
     }
 }

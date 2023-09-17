@@ -1,12 +1,17 @@
 .cover {
     margin: 92px 48px 0;
+    min-width: 74rem;
+    background-image: url('../../../images/cover__background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
 }
 
 @media screen and (max-width: 1210px) {
     .cover{
         margin-right: 0;
         margin-left: 0;
-        max-width: 64rem;
+        min-width: 64rem;
     }
     
 }
@@ -14,13 +19,13 @@
 @media screen and (max-width: 960px) {
     .cover{
         margin-top: 90px;
-        max-width: 48rem;
+        min-width: 48rem;
     }
 }
 
 @media screen and (max-width: 700px) {
     .cover {
-        max-width: 20rem;
+        min-width: 20rem;
         margin-top: 66px;
     }
 }

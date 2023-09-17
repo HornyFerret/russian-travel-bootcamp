@@ -1,14 +1,13 @@
 .page{
     background-color: #2A2C2F;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     width: 80rem;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1210px) {
     .page{
-        margin: 0;
         max-width: 64rem;
     }
     
@@ -16,7 +15,6 @@
 
 @media screen and (max-width: 960px) {
     .page {
-        margin:  0;
         max-width: 48rem;
     }
 }
@@ -24,6 +22,5 @@
 @media screen and (max-width: 700px) {
     .page {
         max-width: 20rem;
-        margin: 0;
     }
 }

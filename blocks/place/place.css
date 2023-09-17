@@ -5,6 +5,9 @@
     grid-template-columns: min-content minmax(30.25rem, 1fr);
     margin: 0 0 80px;
 }
+.place:last-child {
+    margin: 0;
+}
 
 @media screen and (max-width: 1210px) {
     .place {
@@ -22,7 +25,7 @@
 
 @media screen and (max-width: 700px) {
     .place {
-        margin: 64px 0 50px;
+        margin: 0 0 50px;
         display: flex;
         flex-direction: column;
         }
