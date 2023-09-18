@@ -9,12 +9,12 @@
 }
 @media screen and (max-width: 1023px) {
     .lead__figure-image {
-        max-width: 48rem;
+        max-width: 748px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__figure-image {
-        max-width: 20rem;
+        max-width: 300px;
     }
 }

@@ -8,19 +8,19 @@
 
 @media screen and (max-width: 1279px) {
     .page{
-        max-width: 64rem;
+        max-width: 1003px;
     }
     
 }
 
 @media screen and (max-width: 1023px) {
     .page {
-        max-width: 48rem;
+        max-width: 748px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .page {
-        max-width: 20rem;
+        max-width: 300px;
     }
 }

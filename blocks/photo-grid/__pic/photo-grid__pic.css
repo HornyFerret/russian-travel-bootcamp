@@ -11,12 +11,12 @@
 
 @media screen and (max-width: 1023px) {
     .photo-grid__pic{
-        min-width: 22rem;
+        max-width: 22rem;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid__pic {
-        max-width: 18rem;
+        max-width: 300px;
     }
 }
