@@ -12,10 +12,24 @@
     max-width: 35rem;
 }
 
+@media screen and (max-width: 1279px) {
+    .cover__title{
+        margin-top: 195px;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__title{
+        margin-top: 115px; 
+    }
+}
+
 @media screen and (max-width: 767px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         max-width: 18rem;
+        margin-top: 33px;
     }
 }

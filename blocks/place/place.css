@@ -3,7 +3,7 @@
     column-gap: 40px;
     grid-template-rows: repeat(4, min-content);
     grid-template-columns: min-content minmax(30.25rem, 1fr);
-    margin: 0 0 80px;
+    margin: 0 auto 80px;
 }
 .place:last-child {
     margin: 0;
@@ -19,13 +19,13 @@
 @media screen and (max-width: 1023px) {
     .place {
         column-gap: 28px;
-        margin-top: 73px;
+        margin-bottom: 73px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place {
-        margin: 0 0 50px;
+        margin-bottom: 50px;
         display: flex;
         flex-direction: column;
         }

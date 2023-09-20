@@ -1,9 +1,10 @@
 /* all page */
 
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/main/main.css);
-@import url(../pages/fonts.css);
+
 
 /* Header */
 
@@ -28,7 +29,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-text/intro__list-text.css);
-@import url(../blocks/intro/__list-text/_num/intro__list-text_num.css);
+@import url(../blocks/intro/__text-num/intro__text-num.css);
 
 /* Photo Grid */
 
@@ -44,6 +45,7 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/__website-url-heading/place__website-url-heading.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 
@@ -57,5 +59,8 @@
 /* Footer */
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+* { outline: 1px solid yellow; }

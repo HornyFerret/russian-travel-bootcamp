@@ -1,7 +1,7 @@
 .cover__subtitle {
     grid-row: 2/3;
     grid-column: 1/2;
-    font-family: 'Inter ExtraLight', 'Arial', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;

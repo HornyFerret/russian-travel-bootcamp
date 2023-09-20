@@ -7,7 +7,7 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: right;
-    margin: 0 0 3px;
+    margin: 0 0 3px 18px;
 }
 
 .header__lang-link:hover {
@@ -15,7 +15,7 @@
 }
 
 .header__lang-link:first-child {
-    margin-right: 18px;
+    margin-right: 0;
     text-decoration: underline;
     text-underline-offset: 5px;
 }

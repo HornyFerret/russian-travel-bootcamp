@@ -1,18 +1,15 @@
 .place__paragraph{
-    font-family: 'Inter Light', 'Arial', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
     margin: 0 0 26px;
-    grid-column: 2/3;
-    grid-row: 2/3;
 }
 
 .place__paragraph:last-child{
     grid-column: 2/3;
-    grid-row: 3/4;
     margin: 0;
 }
 
@@ -35,10 +32,12 @@
 @media screen and (max-width: 767px) {
     .place__paragraph {
         max-width: 18rem;
-        margin: 32px 16px 25px;
+        margin-right: 16px;
+        margin-left: 16px;
     }
 
-    .place__paragraph:last-child {
-        margin: 0 16px 0;
+    .place__paragraph:last-child{
+        margin-right: 16px;
+        margin-left: 16px;
     }
 }
